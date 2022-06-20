@@ -19,7 +19,7 @@ class CoordinatePaneTest extends BaseIOTest {
 
         pane.printQuadrant(1,-1);
 
-        assertOutEquals("second\n");
+        assertOutEquals("fourth\n");
     }
     @Test
     void printQuadrantThirdWhenXYNegative() {
@@ -36,7 +36,7 @@ class CoordinatePaneTest extends BaseIOTest {
 
         pane.printQuadrant(-1,1);
 
-        assertOutEquals("fourth\n");
+        assertOutEquals("second\n");
     }
 
     @Test

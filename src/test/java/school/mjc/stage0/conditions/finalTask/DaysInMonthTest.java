@@ -27,7 +27,7 @@ class DaysInMonthTest extends BaseIOTest {
     void printDaysFebNonLeapCentury() {
         DaysInMonth daysInMonth = new DaysInMonth();
 
-        daysInMonth.printDays(2000, 2);
+        daysInMonth.printDays(2001, 2);
 
         assertOutEquals("28\n");
     }
